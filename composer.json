@@ -1,0 +1,46 @@
+{
+    "name": "zhiephie/rajaongkir",
+    "version": "0.1",
+    "description": "Raja Ongkir API PHP Class",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+      "rajaongkir",
+      "api"
+    ],
+    "authors": [
+        {
+            "name": "Yudi Purwanto",
+            "email": "purwantoyudi42@gmail.com"
+        }
+    ],
+    "support": {
+      "email": "purwantoyudi42@gmail.com",
+      "issues": "https://github.com/zhiephie/rajaongkir/issues"
+    },
+    "require": {
+        "php": "^7.1.3",
+        "kitetail/zttp": "^0.6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zhiephie\\": "src/Zhiephie"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false
+}
