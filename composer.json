@@ -36,7 +36,7 @@
         }
     },
     "scripts": {
-        "test": "vendor/bin/phpunit"
+        "test": "vendor/bin/phpunit --testdox tests"
     },
     "config": {
         "sort-packages": true
