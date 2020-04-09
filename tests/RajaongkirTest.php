@@ -5,7 +5,7 @@ use PHPUnit\Framework\TestCase;
 
 class RajaongkirTest extends TestCase
 {
-    protected $apiKey = 'fcc0bc782c738b33b3ea943ee7b5cbd7'; 
+    protected $apiKey = 'change-me'; 
     
     /**
      * @test
